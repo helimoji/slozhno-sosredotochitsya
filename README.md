@@ -1,3 +1,3 @@
 # slozhno-sosredotochitsya
-Проект "Сложно сосредоточиться"
+Проект  "Сложно сосредоточиться"
 https://github.com/potilay/slozhno-sosredotochitsya.git
