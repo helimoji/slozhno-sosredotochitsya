@@ -9,28 +9,26 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-  --accent-color: #FF8DCB;
-  --title-color: #FF8DCB;
+  --accent-color: #ff8dcb;
+  --title-color: #ff8dcb;
   --after-accent--text-color: #353430;
   --text-color: #353430;
-  --background-color: #FFF1F7;
+  --background-color: #fff1f7;
   --background-image: url(../images/cover-image-light.png);
   --botton-color: #353430;
-  --title-of-section:#353430;
+  --title-of-section: #353430;
 }
-
-
 
 @media (prefers-color-scheme: light) {
   :root {
-  --accent-color: #FF8DCB;
-  --title-color: #FF8DCB;
-  --after-accent--text-color: #353430;
-  --text-color: #353430;
-  --background-color: #FFF1F7;
-  --background-image: url(../images/cover-image-light.png);
-  --botton-color: #353430;
-  --title-of-section:#353430;
+    --accent-color: #ff8dcb;
+    --title-color: #ff8dcb;
+    --after-accent--text-color: #353430;
+    --text-color: #353430;
+    --background-color: #fff1f7;
+    --background-image: url(../images/cover-image-light.png);
+    --botton-color: #353430;
+    --title-of-section: #353430;
   }
 
   .page.theme_light .decorative-element {

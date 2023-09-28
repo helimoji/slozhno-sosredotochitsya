@@ -3,12 +3,12 @@
   и их переопределение под различные устройства
 */
 :root {
-  --accent-color: #FF0070;
-  --title-color: #DB00FF;
+  --accent-color: #ff0070;
+  --title-color: #db00ff;
   --after-accent--text-color: #000028;
-  --text-color: #F1B2CE;
+  --text-color: #f1b2ce;
   --background-color: #000028;
   --background-image: url(../images/cover-image-dark.png);
-  --botton-color: #FF0070;
-  --title-of-section: #FF0070;
+  --botton-color: #ff0070;
+  --title-of-section: #ff0070;
 }
