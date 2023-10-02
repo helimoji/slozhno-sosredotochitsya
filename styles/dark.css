@@ -17,4 +17,7 @@
   --background-image: url(../images/cover-image-dark.png);
   --botton-color: #ff0070;
   --title-of-section: #ff0070;
+  --font: "IBM Plex Mono", sans-serif;
+  --shadow-color: #ff0070;
+  --focus-color: #ff0070;
 }

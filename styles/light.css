@@ -10,33 +10,41 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --accent-color: #ff8dcb;
-  --title-color: #ff8dcb;
+  --title-color: #ffc2e6;
   --after-accent--text-color: #353430;
   --text-color: #353430;
   --background-color: #fff1f7;
   --background-image: url(../images/cover-image-light.png);
   --botton-color: #353430;
   --title-of-section: #353430;
+  --font: "IBM Plex Mono", sans-serif;
+  --shadow-color: #ff8dcb;
+  --focus-color: #353430;
+  --shadow-color-big-size: #ff0070;
 }
 
 @media (prefers-color-scheme: light) {
   :root {
     --accent-color: #ff8dcb;
-    --title-color: #ff8dcb;
+    --title-color: #ffc2e6;
     --after-accent--text-color: #353430;
     --text-color: #353430;
     --background-color: #fff1f7;
     --background-image: url(../images/cover-image-light.png);
     --botton-color: #353430;
     --title-of-section: #353430;
+    --font: "IBM Plex Mono", sans-serif;
+    --shadow-color: #ff8dcb;
+    --focus-color: #353430;
+    --shadow-color-big-size: #ff0070;
   }
 
   .page.theme_light .decorative-element {
-    visibility: hidden;
+    display: none;
   }
 
   .page.theme_auto .decorative-element {
-    visibility: hidden;
+    display: none;
   }
 
   .header__theme-menu-button:hover {
