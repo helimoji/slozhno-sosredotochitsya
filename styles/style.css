@@ -295,6 +295,10 @@
 @media screen and (768px <= width < 1024px) {
   .header {
     padding: 20px;
+    min-height: 984px;
+    width: 100%;
+    height: 100vh;
+    grid-template-rows: 1fr 0.5fr 0.72fr;
   }
 
   .decorated-zone::after {
@@ -309,13 +313,6 @@
 
   .header__theme-menu {
     margin: 171px 0 177px;
-  }
-
-  .header {
-    min-height: 984px;
-    width: 100%;
-    height: 100vh;
-    grid-template-rows: 1fr 0.5fr 0.72fr;
   }
 
   .title {
@@ -337,9 +334,9 @@
 
   .decorative-element::before {
     top: 20px;
-    right: 48px; 
+    right: 48px;
   }
-  
+
   .decorative-element::after {
     top: 28px;
     right: 29px;
@@ -443,7 +440,6 @@
   .footer {
     min-height: 984px;
     height: 100vh;
-    min-height: 984px;
     margin-top: 40px;
     padding: 20px;
   }
@@ -457,14 +453,12 @@
     top: 20px;
     right: 20px;
   }
-  
+
   .footer::before {
     bottom: 20px;
     left: 20px;
   }
 }
-
-
 
 @media screen and (width >= 1024px) {
   .page {
@@ -552,9 +546,8 @@
   .decorative-element::before {
     top: 20px;
     right: 48px;
-    
   }
-  
+
   .decorative-element::after {
     top: 28px;
     right: 29px;
@@ -654,7 +647,6 @@
     margin-top: 37px;
     padding: 20px;
     min-height: 728px;
-    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
   .footer-title {
@@ -666,7 +658,7 @@
     top: 20px;
     right: 20px;
   }
-  
+
   .footer::before {
     bottom: 20px;
     left: 20px;
