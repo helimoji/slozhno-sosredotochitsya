@@ -20,4 +20,15 @@
   --font: "IBM Plex Mono", sans-serif;
   --shadow-color: #ff0070;
   --focus-color: #ff0070;
+  --shadow-color-big-size: #ff0070;
+}
+
+@media (prefers-color-scheme: dark) {
+  .page.theme_light .decorative-element {
+    display: none;
+  }
+
+  .page.theme_auto {
+    --shadow-color-big-size: #ff0070;
+  }
 }
